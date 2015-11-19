@@ -1,0 +1,36 @@
+[global_config]
+  enabled_plugins = LaunchpadCodeURLHandler, APTURLHandler, LaunchpadBugURLHandler
+  inactive_color_offset = 1.0
+[keybindings]
+  cycle_prev = None
+  next_tab = <Primary>Tab
+  cycle_next = <Shift>Tab
+  zoom_in = <Primary>equal
+  prev_tab = <Primary><Shift>Tab
+[profiles]
+  [[default]]
+    scrollbar_position = hidden
+    use_system_font = False
+    scrollback_lines = 1000
+    cursor_shape = ibeam
+    background_image = None
+    foreground_color = "#ffffff"
+    scroll_on_output = False
+    show_titlebar = False
+    antialias = False
+    font = Ubuntu Mono 11
+    allow_bold = False
+  [[?]]
+    use_system_font = False
+    font = Monospace 10
+    background_image = None
+    antialias = False
+[layouts]
+  [[default]]
+    [[[child1]]]
+      type = Terminal
+      parent = window0
+    [[[window0]]]
+      type = Window
+      parent = ""
+[plugins]
