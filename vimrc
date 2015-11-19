@@ -11,6 +11,9 @@ set incsearch
 set ignorecase
 set smartcase
 
+:autocmd BufEnter * highlight OverLength ctermbg=darkgrey
+:autocmd BufEnter * match OverLength /\%80v.*/
+
 set nocompatible
 filetype plugin indent on
 
