@@ -1,8 +1,7 @@
 .First <- function() {
   options(
     repos = c(CRAN = "https://cran.rstudio.com/"),
-    browserNLdisabled = TRUE,
-    error = traceback
+    browserNLdisabled = TRUE
   )
 }
 
