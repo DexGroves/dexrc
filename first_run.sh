@@ -12,6 +12,12 @@ sudo apt-get -y install R-base-core
 sudo apt-get -y install gnome-do
 sudo apt-get -y install terminator
 sudo apt-get -y install git
+sudo apt-get -y install tmux
+sudo apt-get -y install curl
+sudo apt-get -y install libcurl4-openssl-dev
+sudo apt-get -y install libssl-dev
+sudo apt-get -y install libxml2-dev
+sudo apt-get -y install libx11-dev
 
 # hickop
 mkdir .vim
