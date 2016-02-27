@@ -1,10 +1,8 @@
 #!/bin/bash
 cd ~
 
-# Guest additions stuff
 sudo apt-get update
 sudo apt-get upgrade
-sudo apt-get -y install build-essential linux-headers-`uname -r` dkms
 
 # Essentials
 sudo apt-get -y install vim
@@ -14,11 +12,9 @@ sudo apt-get -y install terminator
 sudo apt-get -y install git
 sudo apt-get -y install tmux
 sudo apt-get -y install curl
-sudo apt-get -y install libcurl4-openssl-dev
+
+# Makes R work
 sudo apt-get -y install libssl-dev
-sudo apt-get -y install libxml2-dev
-sudo apt-get -y install libx11-dev
-sudo apt-get -y install libglu1-mesa-dev
 
 # hickop
 mkdir .vim

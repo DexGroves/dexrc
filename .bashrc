@@ -11,3 +11,5 @@ function cc(){
   cd $1;
   ls;
 }
+
+PS1="$ "
