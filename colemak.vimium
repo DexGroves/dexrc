@@ -1,0 +1,45 @@
+unmap X
+unmap q
+
+unmap n
+unmap e
+unmap i
+unmap o
+
+unmap N
+unmap E
+
+unmap a
+
+unmap t
+unmap s
+unmap T
+
+unmap w
+unmap z
+
+unmap dd
+unmap D
+
+map X enterInsertMode
+map q focusInput
+
+map n scrollDown
+map e scrollUp
+map i scrollLeft
+map o scrollRight
+
+map N previousTab
+map E nextTab
+
+map a performFind
+
+map t LinkHints.activateMode
+map s LinkHints.activateModeToOpenInNewTab
+map T LinkHints.activateModeToOpenInNewTab
+
+map w removeTab
+map z restoreTab
+
+map dd scrollToTop
+map D scrollToBottom
