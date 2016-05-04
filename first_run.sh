@@ -33,3 +33,5 @@ cp dexrc/.Rprofile ~/
 cp -R dexrc/config/* .config/
 cp -R dexrc/sublime/* .config/sublime-text-3/
 
+# R setup 
+R CMD BATCH dexrc/install_core_packages.R 
