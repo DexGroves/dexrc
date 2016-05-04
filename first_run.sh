@@ -7,6 +7,10 @@ sudo apt-get upgrade
 # Essentials
 sudo apt-get -y install vim gnome-do terminator git tmux curl
 
+# Sublime 
+wget https://download.sublimetext.com/sublime-text_build-3103_amd64.deb
+sudo dpkg -i sublime-text_build-3103_amd64.deb
+
 # Makes R work
 sudo apt-get -y install libssl-dev
 
