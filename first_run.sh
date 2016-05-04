@@ -29,5 +29,7 @@ cp dexrc/.tmux.conf .
 cp dexrc/.vimrc .
 cp dexrc/.bash_aliases .
 cat dexrc/.bashrc >> ~/.bashrc
+cp dexrc/.Rprofile ~/
 cp -R dexrc/config/* .config/
 cp -R dexrc/sublime/* .config/sublime-text-3/
+
