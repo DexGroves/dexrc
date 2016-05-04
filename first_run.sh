@@ -11,7 +11,12 @@ sudo apt-get -y install vim gnome-do terminator git tmux curl
 wget https://download.sublimetext.com/sublime-text_build-3103_amd64.deb
 sudo dpkg -i sublime-text_build-3103_amd64.deb
 
-# Makes R work
+# R
+echo 'deb https://cloud.r-project.org/bin/linux/ubuntu xenial/' | sudo tee --append /etc/apt/sources.list
+sudo apt-get update
+sudo apt-get install -y r-base-dev
+
+# R dependencies
 sudo apt-get -y install libssl-dev
 
 # hickop
