@@ -17,7 +17,7 @@ sudo apt-get update
 sudo apt-get install -y r-base-dev
 
 # R dependencies
-sudo apt-get -y install libssl-dev
+sudo apt-get -y install libssl-dev libcurl4-openssl-dev
 
 # hickop
 mkdir .vim
