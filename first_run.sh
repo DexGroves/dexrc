@@ -5,13 +5,7 @@ sudo apt-get update
 sudo apt-get upgrade
 
 # Essentials
-sudo apt-get -y install vim
-sudo apt-get -y install R-base-core
-sudo apt-get -y install gnome-do
-sudo apt-get -y install terminator
-sudo apt-get -y install git
-sudo apt-get -y install tmux
-sudo apt-get -y install curl
+sudo apt-get -y install vim gnome-do terminator git tmux curl
 
 # Makes R work
 sudo apt-get -y install libssl-dev
