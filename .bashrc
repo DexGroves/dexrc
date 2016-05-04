@@ -16,4 +16,4 @@ GREEN="$(tput setaf 2)"
 RESET="$(tput sgr0)"
 PS1='\[\033[01;34m\]\w\[\033[00m\]${GREEN} \$ ${RESET}'
 
-alias tmux="TERM=screen-256color-bce tmux
+alias tmux="TERM=screen-256color-bce tmux"
