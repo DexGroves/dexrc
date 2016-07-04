@@ -24,8 +24,8 @@ unmap D
 map X enterInsertMode
 map q focusInput
 
-map e scrollDown
-map n scrollUp
+map n scrollDown
+map e scrollUp
 map i scrollLeft
 map o scrollRight
 
