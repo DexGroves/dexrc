@@ -1,10 +1,12 @@
 unmap X
 unmap q
 
+unmap d
 unmap n
 unmap e
 unmap i
 unmap o
+unmap f
 
 unmap N
 unmap E
@@ -18,7 +20,6 @@ unmap T
 unmap w
 unmap z
 
-unmap d
 unmap dd
 unmap D
 
