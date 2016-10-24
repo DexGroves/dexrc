@@ -7,6 +7,7 @@ unmap e
 unmap i
 unmap o
 unmap f
+unmap <c-e>
 
 unmap N
 unmap E
